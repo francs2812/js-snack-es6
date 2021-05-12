@@ -1,17 +1,8 @@
-const bici = [
-    {
-        nome: "mtb" ,
-        peso: 10
-    },
-    {
-        nome: "passeggio" ,
-        peso: 15
-    },
-    {
-        nome: "corsa" ,
-        peso: 5
-    }
-];
+
+
+const bici = [{nome: "mtb" ,peso: 10},{nome: "passeggio" ,peso: 15},{nome: "corsa" , peso: 5}];
+
+
 
 for(var i = 1; i < bici.length; i++) {
     var biciT = bici[i].peso;
@@ -21,4 +12,4 @@ for(var i = 1; i < bici.length; i++) {
     }
 }
 
-console.log(biciPiuLeggera);
+console.log(bici);
