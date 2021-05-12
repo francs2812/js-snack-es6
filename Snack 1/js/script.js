@@ -14,4 +14,8 @@ for(let i = 1; i < bici.length; i++) {
 }
 
 const {nome, peso} = biciPiuLeggera;
-console.log(nome, peso);
+console.log(
+    `
+    ${nome} ${peso}
+    `
+);
